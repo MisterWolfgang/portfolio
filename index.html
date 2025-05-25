@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOULIN Julien - Présentation</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/integrations-uxui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Présentation de compétences en UX/UI pour un entretien d'embauche">
+</head>
+<body>
+    <a id="top"></a>
+    <header>
+        <div class="header-flex">
+            <div class="logo">
+                <h1>MOULIN Julien</h1>
+            </div>
+            <nav>
+                <button class="theme-toggle" aria-label="Changer le thème" title="Changer le thème">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#top" class="active">Accueil</a></li>
+                    <li><a href="#realisations">Réalisations</a></li>
+                    <li><a href="#contact" class="cta-button">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-cards">
+        <div class="main-card">
+            <section id="intro-hero">
+                <div class="container">
+                    <div class="intro-hero-content hero-flex">
+                        <div class="hero-photo-col">
+                            <img src="assets/images/julien-moulin.jpg" alt="Photo de Julien Moulin" class="hero-photo"
+                                loading="lazy" />
+                        </div>
+                        <div class="hero-text-col">
+                            <h2>Product Designer & Frontend Developer</h2>
+                            <p class="subtitle">UX/UI · Design d’interface · Développement Frontend · Intégration Web ·
+                                Conception d’app mobile · Accessibilité & Performance</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="main-card">
+            <realisation-slider-section></realisation-slider-section>
+        </div>
+        <div class="main-card">
+            <section id="projects">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Projets</h2>
+                    </div>
+                    <div class="projects-columns">
+                        <div class="projects-col">
+                            <h3>En cours</h3>
+                            <div class="projects-list projects-list-encours"></div>
+                        </div>
+                        <div class="projects-col">
+                            <h3>Terminés</h3>
+                            <div class="projects-list projects-list-termines"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="main-card">
+            <section id="contact">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Contact</h2>
+                        <p>Intéressé par ma démarche ? Contactez-moi</p>
+                    </div>
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <div class="contact-card">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <h3>Email</h3>
+                                <p><a href="mailto:julien.b.moulin@gmail.com">julien.b.moulin@gmail.com</a></p>
+                            </div>
+                            <div class="contact-card">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <h3>Téléphone</h3>
+                                <p><a href="tel:+33698166969">+33 6 98 16 69 69</a></p>
+                            </div>
+                            <div class="contact-card">
+                                <div class="contact-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <h3>LinkedIn</h3>
+                                <p><a href="https://www.linkedin.com/in/misterwolfgang/"
+                                        target="_blank">linkedin.com/in/misterwolfgang/</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>MOULIN Julien</h2>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#top">Accueil</a></li>
+                        <li><a href="#realisations">Réalisations</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/misterwolfgang/" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/Mister_Wolfgang" target="_blank" aria-label="X (Twitter)"><i
+                            class="fab fa-x-twitter"></i></a>
+                    <a href="https://github.com/Mister-Wolfgang" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://github.com/MisterWolfgang" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 - MOULIN Julien</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/github-stats.js"></script>
+    <script src="assets/js/projects-loader.js"></script>
+    <script src="assets/js/realisation-slider-section.js"></script>
+    <script src="assets/js/realisations-loader.js"></script>
+    <script type="module" src="assets/components/realisation-slider.js"></script>
+</body>
+
+</html>

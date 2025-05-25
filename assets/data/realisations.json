@@ -1,0 +1,139 @@
+[
+  {
+    "title": "Intégration d'un système d'affichage dynamique pour bornes interactives",
+    "desc": "Développement fullstack du système d'affichage dynamique pour bornes interactives, inspiré des systèmes d'information des gares SNCF. J'ai assuré l'intégration de la maquette Figma, la conception et le développement du backend (gestion des données, API, logique métier) ainsi que du frontend (React, UX/UI, affichage temps réel). L'ensemble a été optimisé pour une expérience utilisateur claire, performante et impactante sur grand écran, avec gestion dynamique des contenus et des écrans.",
+    "proto": "assets/images/Section 1_anonymized.png",
+    "final": [
+      {
+        "url": "https://media-prima-golf.web.app/ac512940609e3dbb",
+        "label": "Départs",
+        "resolution": "1080x1920"
+      },
+      {
+        "url": "https://media-prima-golf.web.app/5fa92bf390178cc5",
+        "label": "Conditions de jeu",
+        "resolution": "1080x1920"
+      },
+      {
+        "url": "https://media-prima-golf.web.app/a208a81aed13e296",
+        "label": "Prochaines Compétitions",
+        "resolution": "1080x1920"
+      },
+      {
+        "url": "https://media-prima-golf.web.app/4bf7c159a8b6390a",
+        "label": "Compétitions",
+        "resolution": "1080x1920"
+      }
+    ]
+  },
+  {
+    "title": "Plateforme moderne de téléchargement de rapports financiers",
+    "desc": "Réalisation fullstack de la plateforme de consultation et de téléchargement de rapports financiers. J'ai conçu et développé l'ensemble du projet, du backend (API, sécurité, gestion des accès, logique métier) au frontend (UX/UI, intégration, expérience utilisateur). Un important travail de data analyse a été mené pour extraire, analyser, convertir et vérifier les données issues des bases, avant de les fournir au frontend pour la génération et l'exportation des rapports PDF destinés aux golfs. L'interface propose une recherche avancée, des filtres dynamiques et une navigation fluide, garantissant un accès rapide, sécurisé et intuitif à l'information, sur desktop comme sur mobile.",
+    "proto": null,
+    "final": "assets/images/2b0f3f79-7e9c-4417-b85e-6833871b6db7_anonymized.png"
+  },
+  {
+    "title": "Interface de gestion des utilisateurs",
+    "desc": "Réalisation fullstack de l'ensemble du développement pour l'interface de gestion des utilisateurs d'une application cloud dédiée aux parcours de golf. J'ai conçu et développé aussi bien le frontend (UX/UI, intégration, expérience utilisateur) que le backend (API, sécurité, gestion des droits, logique métier). L'outil permet de créer, modifier, supprimer des comptes, d'attribuer des rôles et de suivre l'activité, dans un environnement sécurisé, performant et accessible sur tous supports.",
+    "proto": null,
+    "final": [
+      {
+        "image": "assets/images/Capture d'écran 2025-05-26 010110_anonymized.png",
+        "label": "Principal"
+      },
+      {
+        "image": "assets/images/Capture d'écran 2025-05-26 010123_anonymized.png",
+        "label": "Créer"
+      },
+      {
+        "image": "assets/images/Capture d'écran 2025-05-26 010203_anonymized.png",
+        "label": "Supprimer"
+      }
+    ]
+  },
+  {
+    "title": "Prima Académie",
+    "desc": "Intégration et développement complet du logiciel frontend pour le module Prima Académie. J'ai conçu une interface avancée de planning et de gestion pour les académies de golf : réservation de cours individuels ou collectifs, gestion des disponibilités des enseignants, organisation des plannings, configuration des paramètres d'académie et suivi de l'occupation des parcours. L'outil intègre notifications, gestion des absences, remplacements, et offre une expérience fluide et responsive, parfaitement adaptée aux besoins des clubs et des professionnels du golf.",
+    "proto": null,
+    "final": [
+      {
+        "image": "assets/images/start_anonymized.png",
+        "label": "Académie"
+      },
+      {
+        "image": "assets/images/dispo_anonymized.png",
+        "label": "Disponibilités"
+      },
+      {
+        "image": "assets/images/settings_anonymized.png",
+        "label": "Paramétrages"
+      },
+      {
+        "image": "assets/images/lesson_anonymized.png",
+        "label": "Cours Collectif"
+      },
+      {
+        "image": "assets/images/usage_anonymized.png",
+        "label": "Usage par un Golf"
+      }
+    ]
+  },
+  {
+    "title": "Site primagolf.fr",
+    "desc": "Création et intégration complète du site web primagolf.fr afin de promouvoir les activités, services et l'image de Prima Golf. Le site met en avant l'offre, les actualités et les valeurs du groupe, avec un design moderne, responsive et optimisé pour le référencement.\n\n<!-- ✨ Built with Framer • https://www.framer.com/ -->\n\nLe site a été réalisé sous Framer, ce qui permet une grande flexibilité et rapidité de prototypage/design.",
+    "proto": null,
+    "final": "prima.png",
+    "link": "https://primagolf.fr/"
+  },
+  {
+    "title": "Applications Mobiles",
+    "desc": "J'ai assuré la création, la publication et la maintenance de plus de 50 applications mobiles dédiées aux golfs, disponibles sur l'App Store et Google Play. J'ai pris en charge l'ensemble du cycle de vie : conception UX/UI pour garantir une navigation fluide et intuitive, développement, gestion des erreurs, optimisation des performances, mises à jour régulières et support technique. Mon approche centrée utilisateur a permis d'améliorer significativement l'expérience et la satisfaction des golfs partenaires.",
+    "proto": null,
+    "final": [
+      {
+        "image": "assets/images/mobile-app/IMG_5111.PNG",
+        "label": "Splash Screen"
+      },
+      {
+        "image": "assets/images/mobile-app/IMG_5112.PNG",
+        "label": "Accueil"
+      },
+      {
+        "image": "assets/images/mobile-app/IMG_5113_anonymized.png",
+        "label": "Contact"
+      },
+      {
+        "image": "assets/images/mobile-app/IMG_5114_anonymized.png",
+        "label": "Connexion"
+      },
+      {
+        "image": "assets/images/mobile-app/IMG_5115.PNG",
+        "label": "Écran de Chargement"
+      },
+      {
+        "image": "assets/images/mobile-app/IMG_5116_anonymized.png",
+        "label": "Accueil (Connecté)"
+      },
+      {
+        "image": "assets/images/mobile-app/IMG_5117_anonymized.png",
+        "label": "Carte de Membre"
+      },
+      {
+        "image": "assets/images/mobile-app/IMG_5118.PNG",
+        "label": "Académie - Cours Collectif"
+      },
+      {
+        "image": "assets/images/mobile-app/IMG_5119.PNG",
+        "label": "Activités - Choix d'une Activité"
+      },
+      {
+        "image": "assets/images/mobile-app/IMG_5120.PNG",
+        "label": "Activités - Choix des options"
+      },
+      {
+        "image": "assets/images/mobile-app/IMG_5121.PNG",
+        "label": "Mon Compte"
+      }
+    ]
+  }
+]

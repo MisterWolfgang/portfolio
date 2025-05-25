@@ -1,0 +1,12 @@
+{
+  "name": "ux-ui-presentation",
+  "version": "1.0.0",
+  "description": "Présentation interactive de compétences en UX/UI pour entretien d'embauche.",
+  "scripts": {
+    "start": "npx serve .",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Générateur de Blason (Kingdom Two Crown)",
+    "desc": "Pour Kingdom Two Crown, j'ai développé un générateur de blasons en C# avec une interface intuitive et conviviale. Les joueurs peuvent composer leur blason à partir de nombreux éléments graphiques, visualiser le résultat en temps réel, puis générer automatiquement le code héraldique à importer dans le jeu. Cet outil a grandement simplifié la personnalisation, favorisé la créativité et renforcé l'engagement de la communauté, tout en rendant le processus accessible à tous, même aux débutants.",
+    "img": "assets/images/d3828fb3-b811-47be-a5cf-a9bd5e7164e6.png",
+    "badge": "Terminé",
+    "badgeClass": "badge-termine",
+    "date": "déc. 2018 - déc. 2018"
+    ,
+    "github": "https://github.com/MisterWolfgang/csharp-kingdom-two-crown-coat-of-arms-gen"
+  }
+]

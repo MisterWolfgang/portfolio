@@ -1,0 +1,32 @@
+[
+  {
+    "title": "The Endless Sea",
+    "desc": "Rogue-lite d'aventure maritime dans un océan infini généré procéduralement. Incarnez un jeune mousse pirate échoué, reconstruisez votre navire, recrutez un équipage et explorez des biomes mystérieux, affrontez monstres marins et factions rivales. Chaque partie offre des choix tactiques, une narration émergente et une progression permanente. Ambiance immersive mêlant danger, émerveillement et secrets à découvrir, pour une rejouabilité et une profondeur stratégique exceptionnelles.",
+    "img": "assets/images/12566ceb-0604-4974-821f-699695b72dd0.png",
+    "badge": "En cours",
+    "badgeClass": "badge-encours",
+    "date": "janvier 2025 - aujourd'hui"
+    ,
+    "github": "https://github.com/Mister-Wolfgang/the-endless-sea"
+  },
+  {
+    "title": "eWolf IPTV",
+    "desc": "Application IPTV nouvelle génération, conçue pour une expérience TV ultra-fluide sur Apple TV, Android TV et Samsung TV (Tizen OS). Interface élégante, navigation instantanée, zapping rapide, gestion intelligente des playlists et recommandations personnalisées. Pensée pour séduire tous les publics, même les moins technophiles, avec une prise en main immédiate et un design attractif.",
+    "img": "assets/images/381caccf-4dc2-4959-bf90-742616833089.png",
+    "badge": "En cours",
+    "badgeClass": "badge-encours",
+    "date": "Septembre 2024 - aujourd'hui"
+    ,
+    "github": "https://github.com/MisterWolfgang/wolfgang-iptv"
+  },
+  {
+    "title": "Wolrd of Rim",
+    "desc": "Développement d'un mod innovant pour Rimworld, connectant en temps réel les extensions Twitch à l'univers du jeu. Les spectateurs interagissent directement : gestion d'inventaire, création de personnages personnalisés, intégration fluide dans la partie du streamer. Objectif : dynamiser l'expérience de streaming et renforcer l'engagement de la communauté.",
+    "img": "assets/images/74e260c8-5c53-458a-9f5a-5f3817c849d6.png",
+    "badge": "En cours",
+    "badgeClass": "badge-encours",
+    "date": "mars 2019 - aujourd'hui"
+    ,
+    "github": "https://github.com/MisterWolfgang/WorldOfRim"
+  }
+]

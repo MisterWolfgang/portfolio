@@ -1,0 +1,76 @@
+/* Variables CSS pour les thèmes clair et sombre - à importer dans style.css */
+
+:root.theme-light {
+  --hero-gradient: linear-gradient(90deg, #f6f7fa 60%, #e0e7ef 100%);
+  --primary: #4f8cff;
+  --primary-light: #a5c8fa;
+  --primary-dark: #1e3a5c;
+  --accent: #ffb347;
+  --accent-light: #ffe0b2;
+  --bg: #f6f7fa;
+  --bg-alt: #fdfdff;
+  --surface: #fff;
+  --surface-dark: #e5e7eb;
+  --text: #23272f;
+  --text-muted: #6b7280;
+  --border: 1px solid #e5e7eb;
+  --radius: 6px;
+  --shadow: 0 4px 32px 0 rgba(79,140,255,0.10);
+  --shadow-hover: 0 8px 32px 0 rgba(79,140,255,0.13);
+  --footer-bg: #23272f;
+  --footer-text: #fff;
+  --header-bg: #fff;
+  --header-text: #23272f;
+  --transition: background 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
+  --focus: 0 0 0 3px #4f8cff44;
+}
+
+:root.theme-dark {
+  --primary: #7ab8ff;
+  --primary-light: #b3d8ff;
+  --primary-dark: #22334a;
+  --accent: #ffd580;
+  --accent-light: #fff3d1;
+  --bg: #181c22;
+  --bg-alt: #23272f;
+  --surface: #23272f;
+  --surface-dark: #181c22;
+  --text: #f3f4f6;
+  --text-muted: #aeb4be;
+  --footer-bg: #181c22;
+  --footer-text: #f3f4f6;
+  --header-bg: #23272f;
+  --header-text: #f3f4f6;
+  --border: 1px solid #23272f;
+  --radius: 6px;
+  --shadow: 0 2px 8px 0 rgba(20,24,32,0.18);
+  --shadow-hover: 0 4px 16px 0 rgba(20,24,32,0.22);
+  --focus: 0 0 0 3px #7ab8ff66;
+  --hero-gradient: linear-gradient(90deg, #23272f 60%, #181c22 100%);
+}
+
+:root {
+  /* Valeurs par défaut (light) pour fallback */
+  --hero-gradient: linear-gradient(90deg, #f6f7fa 60%, #e0e7ef 100%);
+  --primary: #4f8cff;
+  --primary-light: #a5c8fa;
+  --primary-dark: #1e3a5c;
+  --accent: #ffb347;
+  --accent-light: #ffe0b2;
+  --bg: #f6f7fa;
+  --bg-alt: #fdfdff;
+  --surface: #fff;
+  --surface-dark: #e5e7eb;
+  --text: #23272f;
+  --text-muted: #6b7280;
+  --border: 1px solid #e5e7eb;
+  --radius: 6px;
+  --shadow: 0 4px 32px 0 rgba(79,140,255,0.10);
+  --shadow-hover: 0 8px 32px 0 rgba(79,140,255,0.13);
+  --footer-bg: #23272f;
+  --footer-text: #fff;
+  --header-bg: #fff;
+  --header-text: #23272f;
+  --transition: background 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
+  --focus: 0 0 0 3px #4f8cff44;
+}
