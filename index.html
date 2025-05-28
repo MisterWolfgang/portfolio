@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOULIN Julien - Présentation</title>
+    <title>Julien Moulin - Portfolio Design & Développement</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#3A506B">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/integrations-uxui.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <meta name="description" content="Présentation de compétences en UX/UI pour un entretien d'embauche">
+    <meta name="description" content="Portfolio de Julien Moulin, Product Designer et Développeur Frontend. Découvrez mes projets et compétences en UX/UI, design d'interface, développement web et mobile.">
 </head>
 <body>
     <a id="top"></a>
@@ -18,15 +20,15 @@
             </div>
             <nav>
                 <button class="theme-toggle" aria-label="Changer le thème" title="Changer le thème">
-                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-moon" aria-hidden="true"></i>
                 </button>
-                <button class="menu-toggle" aria-label="Toggle menu">
+                <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav-links">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </button>
-                <ul class="nav-links">
-                    <li><a href="#top" class="active">Accueil</a></li>
+                <ul class="nav-links" id="main-nav-links">
+                    <li><a href="#top" class="active" aria-current="page">Accueil</a></li>
                     <li><a href="#realisations">Réalisations</a></li>
                     <li><a href="#contact" class="cta-button">Contact</a></li>
                 </ul>
@@ -34,31 +36,32 @@
         </div>
     </header>
     <main class="main-cards">
-        <div class="main-card">
-            <section id="intro-hero">
+        <div class="main-card animate-on-scroll">
+            <section id="intro-hero" aria-labelledby="intro-hero-title">
                 <div class="container">
                     <div class="intro-hero-content hero-flex">
                         <div class="hero-photo-col">
-                            <img src="assets/images/julien-moulin.jpg" alt="Photo de Julien Moulin" class="hero-photo"
-                                loading="lazy" />
+                            <picture>
+                                <source srcset="assets/images/julien-moulin.webp" type="image/webp">
+                                <img src="assets/images/julien-moulin.jpg" alt="Photo de Julien Moulin" class="hero-photo" loading="lazy" width="140" height="140">
+                            </picture>
                         </div>
                         <div class="hero-text-col">
-                            <h2>Product Designer & Frontend Developer</h2>
-                            <p class="subtitle">UX/UI · Design d’interface · Développement Frontend · Intégration Web ·
-                                Conception d’app mobile · Accessibilité & Performance</p>
+                            <h2 id="intro-hero-title">Product Designer & Frontend Developer</h2>
+                            <p class="subtitle">UX/UI Design · Conception d'Interface · Développement Frontend · Intégration Web · Développement d'Applications Mobiles · Accessibilité & Performance</p>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
-        <div class="main-card">
+        <div class="main-card animate-on-scroll">
             <realisation-slider-section></realisation-slider-section>
         </div>
-        <div class="main-card">
-            <section id="projects">
+        <div class="main-card animate-on-scroll">
+            <section id="projects" aria-labelledby="projects-title">
                 <div class="container">
                     <div class="section-header">
-                        <h2>Projets</h2>
+                        <h2 id="projects-title">Projets</h2>
                     </div>
                     <div class="projects-columns">
                         <div class="projects-col">
@@ -73,32 +76,32 @@
                 </div>
             </section>
         </div>
-        <div class="main-card">
-            <section id="contact">
+        <div class="main-card animate-on-scroll">
+            <section id="contact" aria-labelledby="contact-title">
                 <div class="container">
                     <div class="section-header">
-                        <h2>Contact</h2>
-                        <p>Intéressé par ma démarche ? Contactez-moi</p>
+                        <h2 id="contact-title">Contact</h2>
+                        <p>Intéressé par mon profil ou un projet ? Parlons-en !</p>
                     </div>
                     <div class="contact-content">
                         <div class="contact-info">
                             <div class="contact-card">
                                 <div class="contact-icon">
-                                    <i class="fas fa-envelope"></i>
+                                    <i class="fas fa-envelope" aria-hidden="true"></i>
                                 </div>
                                 <h3>Email</h3>
                                 <p><a href="mailto:julien.b.moulin@gmail.com">julien.b.moulin@gmail.com</a></p>
                             </div>
                             <div class="contact-card">
                                 <div class="contact-icon">
-                                    <i class="fas fa-phone"></i>
+                                    <i class="fas fa-phone" aria-hidden="true"></i>
                                 </div>
                                 <h3>Téléphone</h3>
                                 <p><a href="tel:+33698166969">+33 6 98 16 69 69</a></p>
                             </div>
                             <div class="contact-card">
                                 <div class="contact-icon">
-                                    <i class="fab fa-linkedin"></i>
+                                    <i class="fab fa-linkedin" aria-hidden="true"></i>
                                 </div>
                                 <h3>LinkedIn</h3>
                                 <p><a href="https://www.linkedin.com/in/misterwolfgang/"
@@ -114,7 +117,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <h2>MOULIN Julien</h2>
+                    <div class="footer-logo-text">MOULIN Julien</div>
                 </div>
                 <div class="footer-links">
                     <ul>
@@ -125,13 +128,13 @@
                 </div>
                 <div class="footer-social">
                     <a href="https://www.linkedin.com/in/misterwolfgang/" target="_blank" aria-label="LinkedIn"><i
-                            class="fab fa-linkedin"></i></a>
+                            class="fab fa-linkedin" aria-hidden="true"></i></a>
                     <a href="https://x.com/Mister_Wolfgang" target="_blank" aria-label="X (Twitter)"><i
-                            class="fab fa-x-twitter"></i></a>
+                            class="fab fa-x-twitter" aria-hidden="true"></i></a>
                     <a href="https://github.com/Mister-Wolfgang" target="_blank" aria-label="GitHub"><i
-                            class="fab fa-github"></i></a>
+                            class="fab fa-github" aria-hidden="true"></i></a>
                     <a href="https://github.com/MisterWolfgang" target="_blank" aria-label="GitHub"><i
-                            class="fab fa-github"></i></a>
+                            class="fab fa-github" aria-hidden="true"></i></a>
                 </div>
             </div>
             <div class="footer-bottom">

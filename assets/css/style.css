@@ -365,7 +365,7 @@
   padding: 3.5rem 0 2.5rem 0;
   background: var(--hero-gradient);
   border-radius: var(--radius);
-  margin-bottom: 2.5rem;
+  /* margin-bottom: 2.5rem; */ /* Removed as parent .main-cards provides gap */
   scroll-margin-top: 100px;
 }
 .intro-hero-content {
@@ -490,10 +490,11 @@ footer .container {
   border-bottom: 1px solid rgba(255,255,255,0.08);
   padding-bottom: 1rem;
 }
-.footer-logo h2 {
+.footer-logo .footer-logo-text { /* Changed h2 to .footer-logo-text */
   color: var(--primary);
   margin: 0 0 0.5rem 0;
   font-size: 1.5rem;
+  font-weight: 700; /* h2 usually has bold weight, so add it here */
 }
 .footer-links ul {
   list-style: none;
@@ -645,8 +646,8 @@ header {
 
 .logo h1 {
   margin: 0;
-  font-size: 2.1rem;
-  font-weight: 700;
+  font-size: 2.1rem; /* Kept size, could be 2.2rem for more emphasis */
+  font-weight: 700; /* Assuming Inter has a bolder weight available, or use 700 if it's already bold */
   color: var(--primary);
   letter-spacing: -0.03em;
 }
@@ -662,22 +663,25 @@ nav {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1.2rem;
+  gap: 1.2rem; /* Consider slightly increasing gap to 1.5rem for more spacing */
   margin: 0;
   padding: 0;
 }
 .nav-links a {
   text-decoration: none;
   color: var(--text);
-  font-weight: 500;
+  font-weight: 400; /* Slightly lighter for inactive links */
   padding: 0.3rem 0.7rem;
   border-radius: var(--radius);
-  transition: background 0.18s, color 0.18s;
+  transition: background 0.18s, color 0.18s, opacity 0.18s; /* Added opacity transition */
+  opacity: 0.85; /* Slightly fade inactive links */
 }
 .nav-links a.active,
 .nav-links a:hover {
   color: #fff;
   background: var(--primary);
+  font-weight: 500; /* Bolder on hover/active */
+  opacity: 1.0; /* Full opacity on hover/active */
 }
 .cta-button {
   background: var(--accent);
@@ -686,12 +690,14 @@ nav {
   border-radius: var(--radius);
   font-weight: bold;
   margin-left: 0.7rem;
-  transition: background 0.2s, color 0.2s;
-  box-shadow: 0 2px 8px rgba(251,191,36,0.08);
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(251,191,36,0.08); /* Original shadow, consider updating with new accent if needed */
+  opacity: 1.0 !important; /* Ensure CTA is always fully opaque */
 }
 .cta-button:hover {
   background: var(--primary);
   color: #fff !important;
+  transform: translateY(-1px); /* Subtle lift on hover */
 }
 
 .menu-toggle {
@@ -738,13 +744,33 @@ main {
   transition: var(--transition);
 }
 
+/* General h2 styling, can be overridden by more specific selectors */
 h2 {
   color: var(--primary);
   margin-top: 0;
-  font-size: 1.5rem;
+  font-size: 1.5rem; /* Default, will be overridden for section headers */
   font-weight: 600;
   letter-spacing: -0.01em;
 }
+
+/* Styling for h2 within .section-header */
+.section-header {
+  margin-bottom: 2rem; /* Add some space after the header block */
+}
+
+.section-header h2 {
+  font-size: 1.8rem; /* Increase size for section titles */
+  margin-bottom: 0.5rem; /* Space between title and potential subtitle/content */
+}
+
+/* Styling for paragraphs directly within .section-header (e.g., Contact subtitle) */
+.section-header p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+  margin-bottom: 0; /* Remove bottom margin if it's the last element in header */
+}
+
 
 .btn {
   display: inline-block;
@@ -1016,6 +1042,18 @@ footer .container {
   main {
     padding: 1.2rem 0.5rem;
   }
+}
+
+/* --- Scroll Animations --- */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 .main-cards {
   display: flex;
